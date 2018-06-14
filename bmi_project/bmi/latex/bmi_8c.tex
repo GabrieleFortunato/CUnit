@@ -1,0 +1,113 @@
+\hypertarget{bmi_8c}{}\section{src/print\+\_\+result/bmi/bmi.c File Reference}
+\label{bmi_8c}\index{src/print\+\_\+result/bmi/bmi.\+c@{src/print\+\_\+result/bmi/bmi.\+c}}
+{\ttfamily \#include \char`\"{}bmi.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{bmi_8c_abbcd056f916bed4a1e4311d05aac4176}{bmi} (float height, float weight)
+\item 
+char $\ast$ \hyperlink{bmi_8c_aee6ee7f4675fdbf899b4c41c96a42d50}{corporature} (float height, float weight, char sex)
+\item 
+float \hyperlink{bmi_8c_aef4770f732d15b0bca82ef0831819756}{over\+\_\+weight} (float height, float weight, char sex)
+\item 
+float \hyperlink{bmi_8c_a4f584e948e735e907711b121f9411f50}{under\+\_\+weight} (float height, float weight, char sex)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{bmi_8c_abbcd056f916bed4a1e4311d05aac4176}\label{bmi_8c_abbcd056f916bed4a1e4311d05aac4176}} 
+\index{bmi.\+c@{bmi.\+c}!bmi@{bmi}}
+\index{bmi@{bmi}!bmi.\+c@{bmi.\+c}}
+\subsubsection{\texorpdfstring{bmi()}{bmi()}}
+{\footnotesize\ttfamily float bmi (\begin{DoxyParamCaption}\item[{float}]{height,  }\item[{float}]{weight }\end{DoxyParamCaption})}
+
+Calcola l\textquotesingle{}indice di massa corporea 
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+{\em weight} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 15 of file bmi.\+c.
+
+\mbox{\Hypertarget{bmi_8c_aee6ee7f4675fdbf899b4c41c96a42d50}\label{bmi_8c_aee6ee7f4675fdbf899b4c41c96a42d50}} 
+\index{bmi.\+c@{bmi.\+c}!corporature@{corporature}}
+\index{corporature@{corporature}!bmi.\+c@{bmi.\+c}}
+\subsubsection{\texorpdfstring{corporature()}{corporature()}}
+{\footnotesize\ttfamily char$\ast$ corporature (\begin{DoxyParamCaption}\item[{float}]{height,  }\item[{float}]{weight,  }\item[{char}]{sex }\end{DoxyParamCaption})}
+
+Calcola la corporatura del soggetto \begin{DoxyPrecond}{Precondition}
+il sesso deve essere una M o una F 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+{\em weight} & \\
+\hline
+{\em sex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 35 of file bmi.\+c.
+
+\mbox{\Hypertarget{bmi_8c_aef4770f732d15b0bca82ef0831819756}\label{bmi_8c_aef4770f732d15b0bca82ef0831819756}} 
+\index{bmi.\+c@{bmi.\+c}!over\+\_\+weight@{over\+\_\+weight}}
+\index{over\+\_\+weight@{over\+\_\+weight}!bmi.\+c@{bmi.\+c}}
+\subsubsection{\texorpdfstring{over\+\_\+weight()}{over\_weight()}}
+{\footnotesize\ttfamily float over\+\_\+weight (\begin{DoxyParamCaption}\item[{float}]{height,  }\item[{float}]{weight,  }\item[{char}]{sex }\end{DoxyParamCaption})}
+
+Calcola l\textquotesingle{}entità del sovrappeso \begin{DoxyPrecond}{Precondition}
+l\textquotesingle{}indice di massa corporea deve essere maggiore di 24 per gli uomini e maggiore di 22 per le donne 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+{\em weight} & \\
+\hline
+{\em sex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 50 of file bmi.\+c.
+
+\mbox{\Hypertarget{bmi_8c_a4f584e948e735e907711b121f9411f50}\label{bmi_8c_a4f584e948e735e907711b121f9411f50}} 
+\index{bmi.\+c@{bmi.\+c}!under\+\_\+weight@{under\+\_\+weight}}
+\index{under\+\_\+weight@{under\+\_\+weight}!bmi.\+c@{bmi.\+c}}
+\subsubsection{\texorpdfstring{under\+\_\+weight()}{under\_weight()}}
+{\footnotesize\ttfamily float under\+\_\+weight (\begin{DoxyParamCaption}\item[{float}]{height,  }\item[{float}]{weight,  }\item[{char}]{sex }\end{DoxyParamCaption})}
+
+Calcola l\textquotesingle{}entità del sovrappeso \begin{DoxyPrecond}{Precondition}
+l\textquotesingle{}indice di massa corporea deve essere minore di 20 per gli uomini e minore di 18 per le donne 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+{\em weight} & \\
+\hline
+{\em sex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 65 of file bmi.\+c.
+

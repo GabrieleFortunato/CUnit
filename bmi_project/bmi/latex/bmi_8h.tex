@@ -1,0 +1,312 @@
+\hypertarget{bmi_8h}{}\section{src/print\+\_\+result/bmi/bmi.h File Reference}
+\label{bmi_8h}\index{src/print\+\_\+result/bmi/bmi.\+h@{src/print\+\_\+result/bmi/bmi.\+h}}
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{bmi_8h_a4e0a22e2f8c07f2b7b660af47bb13fd3}{E\+X\+T\+R\+A\+\_\+\+O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT}~\char`\"{}Soggetto in forte sovrappeso\char`\"{}
+\item 
+\#define \hyperlink{bmi_8h_a034cbfe56667ce55dcc602207a0d798c}{O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT}~\char`\"{}Soggetto in leggero sovrappeso\char`\"{}
+\item 
+\#define \hyperlink{bmi_8h_aa2f5d7d5c5c22cd84576f29af951a599}{O\+K\+\_\+\+W\+E\+I\+G\+HT}~\char`\"{}Soggetto in peso forma\char`\"{}
+\item 
+\#define \hyperlink{bmi_8h_a985cd4f5f5a6ff7ece17be78625f29dc}{U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT}~\char`\"{}Soggetto in leggero sottopeso\char`\"{}
+\item 
+\#define \hyperlink{bmi_8h_a0593f2214397ce910be6dbc0f3e82fef}{E\+X\+T\+R\+A\+\_\+\+U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT}~\char`\"{}Soggetto in forte sottopeso\char`\"{}
+\item 
+\#define \hyperlink{bmi_8h_a1b7d6a2245a988c5eb7dd5a5161c19e0}{I\+N\+I\+T\+\_\+\+R\+E\+S\+U\+LT}~\char`\"{}Result\char`\"{}
+\item 
+\#define \hyperlink{bmi_8h_a3e9fdc2fb90cd3e4928dcfc92c1e3a18}{C\+H\+A\+R\+\_\+M}~\textquotesingle{}M\textquotesingle{}
+\item 
+\#define \hyperlink{bmi_8h_aca3c5768f6f6b9763536de3441e22f12}{C\+H\+A\+R\+\_\+F}~\textquotesingle{}F\textquotesingle{}
+\item 
+\#define \hyperlink{bmi_8h_abb71f91d9e2226bdf5dd225b74da405d}{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+M}~30.\+0
+\item 
+\#define \hyperlink{bmi_8h_ad9474ca655e7be67b0bef713aba6cfd8}{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+F}~28.\+0
+\item 
+\#define \hyperlink{bmi_8h_ac61cc2a5f39589d31c90f86b0ae6b998}{M\+A\+X\+\_\+\+B\+M\+I\+\_\+M}~24.\+0
+\item 
+\#define \hyperlink{bmi_8h_a872b8494c77d76d9b5dbb3e0e5f4c413}{M\+A\+X\+\_\+\+B\+M\+I\+\_\+F}~22.\+0
+\item 
+\#define \hyperlink{bmi_8h_aec58782cac709605e670f447d01031e5}{M\+I\+N\+\_\+\+B\+M\+I\+\_\+M}~20.\+0
+\item 
+\#define \hyperlink{bmi_8h_ab0e41bbacbd507c5df95c06723492741}{M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}~18.\+0
+\item 
+\#define \hyperlink{bmi_8h_a44852d956e4a1820312b19dccb950996}{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+M}~\hyperlink{bmi_8h_ab0e41bbacbd507c5df95c06723492741}{M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}
+\item 
+\#define \hyperlink{bmi_8h_ab5e6b4cd108cb48a9e26dfeade3a593c}{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}~16.\+0
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{bmi_8h_abbcd056f916bed4a1e4311d05aac4176}{bmi} (float height, float weight)
+\item 
+char $\ast$ \hyperlink{bmi_8h_aee6ee7f4675fdbf899b4c41c96a42d50}{corporature} (float height, float weight, char sex)
+\item 
+float \hyperlink{bmi_8h_aef4770f732d15b0bca82ef0831819756}{over\+\_\+weight} (float height, float weight, char sex)
+\item 
+float \hyperlink{bmi_8h_a4f584e948e735e907711b121f9411f50}{under\+\_\+weight} (float height, float weight, char sex)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{bmi_8h_aca3c5768f6f6b9763536de3441e22f12}\label{bmi_8h_aca3c5768f6f6b9763536de3441e22f12}} 
+\index{bmi.\+h@{bmi.\+h}!C\+H\+A\+R\+\_\+F@{C\+H\+A\+R\+\_\+F}}
+\index{C\+H\+A\+R\+\_\+F@{C\+H\+A\+R\+\_\+F}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{C\+H\+A\+R\+\_\+F}{CHAR\_F}}
+{\footnotesize\ttfamily \#define C\+H\+A\+R\+\_\+F~\textquotesingle{}F\textquotesingle{}}
+
+
+
+Definition at line 22 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_a3e9fdc2fb90cd3e4928dcfc92c1e3a18}\label{bmi_8h_a3e9fdc2fb90cd3e4928dcfc92c1e3a18}} 
+\index{bmi.\+h@{bmi.\+h}!C\+H\+A\+R\+\_\+M@{C\+H\+A\+R\+\_\+M}}
+\index{C\+H\+A\+R\+\_\+M@{C\+H\+A\+R\+\_\+M}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{C\+H\+A\+R\+\_\+M}{CHAR\_M}}
+{\footnotesize\ttfamily \#define C\+H\+A\+R\+\_\+M~\textquotesingle{}M\textquotesingle{}}
+
+
+
+Definition at line 21 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_ad9474ca655e7be67b0bef713aba6cfd8}\label{bmi_8h_ad9474ca655e7be67b0bef713aba6cfd8}} 
+\index{bmi.\+h@{bmi.\+h}!E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+F@{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+F}}
+\index{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+F@{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+F}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+F}{EXTRA\_MAX\_BMI\_F}}
+{\footnotesize\ttfamily \#define E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+F~28.\+0}
+
+
+
+Definition at line 24 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_abb71f91d9e2226bdf5dd225b74da405d}\label{bmi_8h_abb71f91d9e2226bdf5dd225b74da405d}} 
+\index{bmi.\+h@{bmi.\+h}!E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+M@{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+M}}
+\index{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+M@{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+M}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+M}{EXTRA\_MAX\_BMI\_M}}
+{\footnotesize\ttfamily \#define E\+X\+T\+R\+A\+\_\+\+M\+A\+X\+\_\+\+B\+M\+I\+\_\+M~30.\+0}
+
+
+
+Definition at line 23 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_ab5e6b4cd108cb48a9e26dfeade3a593c}\label{bmi_8h_ab5e6b4cd108cb48a9e26dfeade3a593c}} 
+\index{bmi.\+h@{bmi.\+h}!E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+F@{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}}
+\index{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+F@{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}{EXTRA\_MIN\_BMI\_F}}
+{\footnotesize\ttfamily \#define E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+F~16.\+0}
+
+
+
+Definition at line 30 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_a44852d956e4a1820312b19dccb950996}\label{bmi_8h_a44852d956e4a1820312b19dccb950996}} 
+\index{bmi.\+h@{bmi.\+h}!E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+M@{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+M}}
+\index{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+M@{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+M}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+M}{EXTRA\_MIN\_BMI\_M}}
+{\footnotesize\ttfamily \#define E\+X\+T\+R\+A\+\_\+\+M\+I\+N\+\_\+\+B\+M\+I\+\_\+M~\hyperlink{bmi_8h_ab0e41bbacbd507c5df95c06723492741}{M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}}
+
+
+
+Definition at line 29 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_a4e0a22e2f8c07f2b7b660af47bb13fd3}\label{bmi_8h_a4e0a22e2f8c07f2b7b660af47bb13fd3}} 
+\index{bmi.\+h@{bmi.\+h}!E\+X\+T\+R\+A\+\_\+\+O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT@{E\+X\+T\+R\+A\+\_\+\+O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT}}
+\index{E\+X\+T\+R\+A\+\_\+\+O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT@{E\+X\+T\+R\+A\+\_\+\+O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{E\+X\+T\+R\+A\+\_\+\+O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT}{EXTRA\_OVER\_WEIGHT}}
+{\footnotesize\ttfamily \#define E\+X\+T\+R\+A\+\_\+\+O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT~\char`\"{}Soggetto in forte sovrappeso\char`\"{}}
+
+
+
+Definition at line 15 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_a0593f2214397ce910be6dbc0f3e82fef}\label{bmi_8h_a0593f2214397ce910be6dbc0f3e82fef}} 
+\index{bmi.\+h@{bmi.\+h}!E\+X\+T\+R\+A\+\_\+\+U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT@{E\+X\+T\+R\+A\+\_\+\+U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT}}
+\index{E\+X\+T\+R\+A\+\_\+\+U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT@{E\+X\+T\+R\+A\+\_\+\+U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{E\+X\+T\+R\+A\+\_\+\+U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT}{EXTRA\_UNDER\_WEIGHT}}
+{\footnotesize\ttfamily \#define E\+X\+T\+R\+A\+\_\+\+U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT~\char`\"{}Soggetto in forte sottopeso\char`\"{}}
+
+
+
+Definition at line 19 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_a1b7d6a2245a988c5eb7dd5a5161c19e0}\label{bmi_8h_a1b7d6a2245a988c5eb7dd5a5161c19e0}} 
+\index{bmi.\+h@{bmi.\+h}!I\+N\+I\+T\+\_\+\+R\+E\+S\+U\+LT@{I\+N\+I\+T\+\_\+\+R\+E\+S\+U\+LT}}
+\index{I\+N\+I\+T\+\_\+\+R\+E\+S\+U\+LT@{I\+N\+I\+T\+\_\+\+R\+E\+S\+U\+LT}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{I\+N\+I\+T\+\_\+\+R\+E\+S\+U\+LT}{INIT\_RESULT}}
+{\footnotesize\ttfamily \#define I\+N\+I\+T\+\_\+\+R\+E\+S\+U\+LT~\char`\"{}Result\char`\"{}}
+
+
+
+Definition at line 20 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_a872b8494c77d76d9b5dbb3e0e5f4c413}\label{bmi_8h_a872b8494c77d76d9b5dbb3e0e5f4c413}} 
+\index{bmi.\+h@{bmi.\+h}!M\+A\+X\+\_\+\+B\+M\+I\+\_\+F@{M\+A\+X\+\_\+\+B\+M\+I\+\_\+F}}
+\index{M\+A\+X\+\_\+\+B\+M\+I\+\_\+F@{M\+A\+X\+\_\+\+B\+M\+I\+\_\+F}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+B\+M\+I\+\_\+F}{MAX\_BMI\_F}}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+\+B\+M\+I\+\_\+F~22.\+0}
+
+
+
+Definition at line 26 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_ac61cc2a5f39589d31c90f86b0ae6b998}\label{bmi_8h_ac61cc2a5f39589d31c90f86b0ae6b998}} 
+\index{bmi.\+h@{bmi.\+h}!M\+A\+X\+\_\+\+B\+M\+I\+\_\+M@{M\+A\+X\+\_\+\+B\+M\+I\+\_\+M}}
+\index{M\+A\+X\+\_\+\+B\+M\+I\+\_\+M@{M\+A\+X\+\_\+\+B\+M\+I\+\_\+M}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+B\+M\+I\+\_\+M}{MAX\_BMI\_M}}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+\+B\+M\+I\+\_\+M~24.\+0}
+
+
+
+Definition at line 25 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_ab0e41bbacbd507c5df95c06723492741}\label{bmi_8h_ab0e41bbacbd507c5df95c06723492741}} 
+\index{bmi.\+h@{bmi.\+h}!M\+I\+N\+\_\+\+B\+M\+I\+\_\+F@{M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}}
+\index{M\+I\+N\+\_\+\+B\+M\+I\+\_\+F@{M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+B\+M\+I\+\_\+F}{MIN\_BMI\_F}}
+{\footnotesize\ttfamily \#define M\+I\+N\+\_\+\+B\+M\+I\+\_\+F~18.\+0}
+
+
+
+Definition at line 28 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_aec58782cac709605e670f447d01031e5}\label{bmi_8h_aec58782cac709605e670f447d01031e5}} 
+\index{bmi.\+h@{bmi.\+h}!M\+I\+N\+\_\+\+B\+M\+I\+\_\+M@{M\+I\+N\+\_\+\+B\+M\+I\+\_\+M}}
+\index{M\+I\+N\+\_\+\+B\+M\+I\+\_\+M@{M\+I\+N\+\_\+\+B\+M\+I\+\_\+M}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+B\+M\+I\+\_\+M}{MIN\_BMI\_M}}
+{\footnotesize\ttfamily \#define M\+I\+N\+\_\+\+B\+M\+I\+\_\+M~20.\+0}
+
+
+
+Definition at line 27 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_aa2f5d7d5c5c22cd84576f29af951a599}\label{bmi_8h_aa2f5d7d5c5c22cd84576f29af951a599}} 
+\index{bmi.\+h@{bmi.\+h}!O\+K\+\_\+\+W\+E\+I\+G\+HT@{O\+K\+\_\+\+W\+E\+I\+G\+HT}}
+\index{O\+K\+\_\+\+W\+E\+I\+G\+HT@{O\+K\+\_\+\+W\+E\+I\+G\+HT}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{O\+K\+\_\+\+W\+E\+I\+G\+HT}{OK\_WEIGHT}}
+{\footnotesize\ttfamily \#define O\+K\+\_\+\+W\+E\+I\+G\+HT~\char`\"{}Soggetto in peso forma\char`\"{}}
+
+
+
+Definition at line 17 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_a034cbfe56667ce55dcc602207a0d798c}\label{bmi_8h_a034cbfe56667ce55dcc602207a0d798c}} 
+\index{bmi.\+h@{bmi.\+h}!O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT@{O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT}}
+\index{O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT@{O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT}{OVER\_WEIGHT}}
+{\footnotesize\ttfamily \#define O\+V\+E\+R\+\_\+\+W\+E\+I\+G\+HT~\char`\"{}Soggetto in leggero sovrappeso\char`\"{}}
+
+
+
+Definition at line 16 of file bmi.\+h.
+
+\mbox{\Hypertarget{bmi_8h_a985cd4f5f5a6ff7ece17be78625f29dc}\label{bmi_8h_a985cd4f5f5a6ff7ece17be78625f29dc}} 
+\index{bmi.\+h@{bmi.\+h}!U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT@{U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT}}
+\index{U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT@{U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT}{UNDER\_WEIGHT}}
+{\footnotesize\ttfamily \#define U\+N\+D\+E\+R\+\_\+\+W\+E\+I\+G\+HT~\char`\"{}Soggetto in leggero sottopeso\char`\"{}}
+
+
+
+Definition at line 18 of file bmi.\+h.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{bmi_8h_abbcd056f916bed4a1e4311d05aac4176}\label{bmi_8h_abbcd056f916bed4a1e4311d05aac4176}} 
+\index{bmi.\+h@{bmi.\+h}!bmi@{bmi}}
+\index{bmi@{bmi}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{bmi()}{bmi()}}
+{\footnotesize\ttfamily float bmi (\begin{DoxyParamCaption}\item[{float}]{height,  }\item[{float}]{weight }\end{DoxyParamCaption})}
+
+Calcola l\textquotesingle{}indice di massa corporea 
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+{\em weight} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 15 of file bmi.\+c.
+
+\mbox{\Hypertarget{bmi_8h_aee6ee7f4675fdbf899b4c41c96a42d50}\label{bmi_8h_aee6ee7f4675fdbf899b4c41c96a42d50}} 
+\index{bmi.\+h@{bmi.\+h}!corporature@{corporature}}
+\index{corporature@{corporature}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{corporature()}{corporature()}}
+{\footnotesize\ttfamily char$\ast$ corporature (\begin{DoxyParamCaption}\item[{float}]{height,  }\item[{float}]{weight,  }\item[{char}]{sex }\end{DoxyParamCaption})}
+
+Calcola la corporatura del soggetto \begin{DoxyPrecond}{Precondition}
+il sesso deve essere una M o una F 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+{\em weight} & \\
+\hline
+{\em sex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 35 of file bmi.\+c.
+
+\mbox{\Hypertarget{bmi_8h_aef4770f732d15b0bca82ef0831819756}\label{bmi_8h_aef4770f732d15b0bca82ef0831819756}} 
+\index{bmi.\+h@{bmi.\+h}!over\+\_\+weight@{over\+\_\+weight}}
+\index{over\+\_\+weight@{over\+\_\+weight}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{over\+\_\+weight()}{over\_weight()}}
+{\footnotesize\ttfamily float over\+\_\+weight (\begin{DoxyParamCaption}\item[{float}]{height,  }\item[{float}]{weight,  }\item[{char}]{sex }\end{DoxyParamCaption})}
+
+Calcola l\textquotesingle{}entità del sovrappeso \begin{DoxyPrecond}{Precondition}
+l\textquotesingle{}indice di massa corporea deve essere maggiore di 24 per gli uomini e maggiore di 22 per le donne 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+{\em weight} & \\
+\hline
+{\em sex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 50 of file bmi.\+c.
+
+\mbox{\Hypertarget{bmi_8h_a4f584e948e735e907711b121f9411f50}\label{bmi_8h_a4f584e948e735e907711b121f9411f50}} 
+\index{bmi.\+h@{bmi.\+h}!under\+\_\+weight@{under\+\_\+weight}}
+\index{under\+\_\+weight@{under\+\_\+weight}!bmi.\+h@{bmi.\+h}}
+\subsubsection{\texorpdfstring{under\+\_\+weight()}{under\_weight()}}
+{\footnotesize\ttfamily float under\+\_\+weight (\begin{DoxyParamCaption}\item[{float}]{height,  }\item[{float}]{weight,  }\item[{char}]{sex }\end{DoxyParamCaption})}
+
+Calcola l\textquotesingle{}entità del sovrappeso \begin{DoxyPrecond}{Precondition}
+l\textquotesingle{}indice di massa corporea deve essere minore di 20 per gli uomini e minore di 18 per le donne 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+{\em weight} & \\
+\hline
+{\em sex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 65 of file bmi.\+c.
+
